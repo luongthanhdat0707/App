@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Activity.LienheActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#4D94CC"
+        app:titleTextColor="#FFFEFD"
+        app:title="Liên hệ"
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/lienhe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#856331"
+            android:textSize="40dp"
+            android:text="Liên hệ với chúng tôi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/boder"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/ic_user"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:textColor="#0E0E0E"
+                android:textSize="20sp"
+                android:text="  Name:LƯƠNG THÀNH ĐẠT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/boder"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/ic_phone"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30sp"
+                android:text="  SĐT: 0932688544"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/boder"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/ic_gmail"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:textColor="#0E0E0E"
+                android:textSize="20sp"
+                android:text=" Gmail:thanhdat@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
